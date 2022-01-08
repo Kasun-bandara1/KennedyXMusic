@@ -72,13 +72,13 @@ async def start_(client: Client, message: Message):
                         "❤️ Donate", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group​​", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "Support🚧​​", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📮 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "Updates 🧩", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠️ Source Code 🛠️", url=f"{UPSTREAM_REPO}")
+                        "Dev 🌵", url=f"{@SANTA_R1}")
                 ],[
                     InlineKeyboardButton(
                         "❔ About me​​", callback_data="cbabout"
